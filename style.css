@@ -1,0 +1,71 @@
+@import url('https://fonts.goggleapis.com/css?family=Raleway');
+@import url('https://fonts.goggleapis.com/css?family=Oswald');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://www.skibutlers.com/assets/images/Old-Blog-Images/Y3NHZlZTQ0ZDT2M90.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: teal;
+    font-size: 500%;
+
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'oswald', sans-serif;
+    color: teal;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #036a81 3px;
+}
+
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+p {
+    font: size 160%;
+    ;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .content h1{
+        font-size: 250%;
+    }
+    .btn{}
+}
